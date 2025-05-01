@@ -16,3 +16,5 @@ steps:
         "push",
         "us-east4-docker.pkg.dev/ecommerce-microserivces/nestjs-ecommerce-registry/auth-ms",
       ]
+options:
+  logging: CLOUD_LOGGING_ONLY
